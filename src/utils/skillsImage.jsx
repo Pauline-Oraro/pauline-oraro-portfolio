@@ -5,7 +5,7 @@ import typescript from '../assets/svg/typescript.svg'
 import bootstrap from '../assets/svg/bootstrap.svg'
 import tailwind from '../assets/svg/tailwind.svg'
 import react from '../assets/svg/react.svg'
-import nextjs from '../assets/svg/nextjs.svg'
+import nextjs from '../assets/svg/nextJS.svg'
 import git from '../assets/svg/git.svg'
 
 
