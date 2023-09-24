@@ -1,3 +1,9 @@
+import noteTaking from '/src/assets/images/note taking.png'
+import todolist from '/src/assets/images/todo-list.png'
+import quiz from '/src/assets/images/quiz app.png'
+import price from '/src/assets/images/price tag.png'
+import form from '/src/assets/images/form.jpg'
+import tictac from '/src/assets/images/tictac.png'
 
 
 const ProjectsPage = () => {
@@ -7,7 +13,7 @@ const ProjectsPage = () => {
             <div className="projectContainer">
                 <div className="projectCard">
                     <div className="projectHeader">
-                        <img src="/src/assets/images/note taking.png" alt="note taking app example"/>
+                        <img src={noteTaking} alt="note taking app example"/>
                     </div>
                     <div className="projectBody">
                     <h3>Note Taking App</h3>
@@ -22,7 +28,7 @@ const ProjectsPage = () => {
 
                 <div className="projectCard">
                     <div className="projectHeader">
-                        <img src="/src/assets/images/todo-list.png" alt="todo list app example"/>
+                        <img src={todolist} alt="todo list app example"/>
                     </div>
                     <div className="projectBody">
                     <h3>Todo List App</h3>
@@ -37,7 +43,7 @@ const ProjectsPage = () => {
 
                 <div className="projectCard">
                     <div className="projectHeader">
-                        <img src="/src/assets/images/form.jpg" alt="login form example"/>
+                        <img src={form} alt="login form example"/>
                     </div>
                     <div className="projectBody">
                     <h3>React Login Form </h3>
@@ -52,7 +58,7 @@ const ProjectsPage = () => {
 
                 <div className="projectCard">
                     <div className="projectHeader">
-                        <img src="/src/assets/images/quiz app.png" alt="javascript quiz app example"/>
+                        <img src={quiz} alt="javascript quiz app example"/>
                     </div>
                     <div className="projectBody">
                     <h3>Javascript Quiz App</h3>
@@ -67,7 +73,7 @@ const ProjectsPage = () => {
 
                 <div className="projectCard">
                     <div className="projectHeader">
-                        <img src="/src/assets/images/price tag.png" alt="bootstrap tables example"/>
+                        <img src={price} alt="bootstrap tables example"/>
                     </div>
                     <div className="projectBody">
                     <h3>Pricing Table App</h3>
@@ -82,7 +88,7 @@ const ProjectsPage = () => {
 
                 <div className="projectCard">
                     <div className="projectHeader">
-                        <img src="/src/assets/images/tictac.png" alt="tictactoe example"/>
+                        <img src={tictac} alt="tictactoe example"/>
                     </div>
                     <div className="projectBody">
                     <h3>Tictactoe Game App</h3>
