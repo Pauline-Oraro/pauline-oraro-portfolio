@@ -37,7 +37,7 @@ const ProjectsPage = () => {
 
                 <div className="projectCard">
                     <div className="projectHeader">
-                        <img src="/src/images/form.png" alt="login form example"/>
+                        <img src="/src/images/form.jpg" alt="login form example"/>
                     </div>
                     <div className="projectBody">
                     <h3>React Login Form </h3>
