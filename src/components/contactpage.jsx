@@ -134,7 +134,7 @@ const ContactPage = () =>{
                         />
                         <label htmlFor="questionSeven" className="tab-label"> How can I get in touch with you to discuss a project or job opportunity?</label>
                         <div className="answerTab">
-                            <p>You can contact me through the contact form on this website, or you can reach out to me via email at [hiltrapauline@gmail.com]. I am always open to discussing new projects and opportunities.</p>
+                            <p>You can contact me through the contact form on this website, or you can reach out to me via email which is stated above. I am always open to discussing new projects and opportunities.</p>
                         </div>
                     </div>
 
