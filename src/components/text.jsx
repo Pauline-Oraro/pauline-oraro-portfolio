@@ -9,7 +9,7 @@ const Text = () =>{
             "Frontend Web Developer",
             "Frontend Consultant",
             "S.E.O Specialist",
-            "Christian and Web blogger"
+            "Web Content Writer"
         ],
         autoStart: true,
         loop: true,

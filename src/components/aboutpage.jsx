@@ -8,7 +8,7 @@ const AboutPage = () => {
     return (
         <div className=" skills container mx-auto my-36">
             <h3 className="text-center mb-12"><span style={{"backgroundColor":"#d60b5c", "boxShadow": "5px 5px 0px black"}}>ABOUT</span> ME</h3>
-            <p className="text-2xl pl-3.5">I am a dedicated Frontend Web Developer with a passion for creativity and a strong foundation in modern web technologies, I specialize in crafting visually appealing and user-friendly websites that deliver exceptional user experiences. With 2 years of experience in the industry, I have honed my skills in HTML, CSS, JavaScript, responsive design and S.E.O to seamlessly translate design concepts into functional and engaging web interfaces. I thrive on staying current with industry trends and best practices to consistently deliver high-quality results. Beyond my technical expertise, I am also a devoted Christian and a passionate web blogger, where I combine my faith with my love for technology by sharing insights, tutorials, and thought-provoking content to inspire and inform my readers. My goal is to contribute my skills, creativity, and enthusiasm to collaborate on innovative web projects that make a positive impact, while continually growing as a developer and sharing my journey with a wider audience.</p>
+            <p className="text-2xl pl-3.5">I am a dedicated Frontend Web Developer with a passion for creativity and a strong foundation in modern web technologies, I specialize in crafting visually appealing and user-friendly websites that deliver exceptional user experiences. With 2 years of experience in the industry, I have honed my skills in HTML, CSS, JavaScript, Responsive design and S.E.O to seamlessly translate design concepts into functional and engaging web interfaces. I thrive on staying current with industry trends and best practices to consistently deliver high-quality results. Beyond my technical expertise, I am also a devoted web content writer. I combine my love for technology with my passion for creating engaging online content. I specialize in delivering insightful articles, tutorials, and thought-provoking pieces that aim to inspire and inform my readers. My goal is to contribute my skills, creativity, and enthusiasm to collaborate on innovative web projects that make a positive impact, while continually growing as a developer and sharing my journey with a wider audience.</p>
             <div className="skillsContainer">
                 <h3 className="mb-12 text-center">MY <span style={{"backgroundColor":"#b915cc", "boxShadow": "5px 5px 0px black"}}>SKILLS</span></h3>
                             <div className="skill-scroll">
@@ -56,6 +56,10 @@ const AboutPage = () => {
                 <div className="serviceCard">
                     <h4 className="text-center mb-3">Code Quality and Testing</h4>
                     <p className="text-2xl">Write clean, maintainable code and conduct testing (unit, integration, and end-to-end) to ensure the quality and reliability of web applications</p>
+                </div>
+                <div className="serviceCard">
+                    <h4 className="text-center mb-3">Web Content Writing Creation</h4>
+                    <p className="text-2xl">Crafting content that is optimized for search engines so to improve the website&apos;s search engine rankings.</p>
                 </div>
                 </div>
             </div>
