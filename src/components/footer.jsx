@@ -8,7 +8,7 @@ const Footer = () =>{
     return (
         <div className="footer w-full bottom m-0">
             <div className="footerSection">
-                <p>&copy;Pauline Oraro 2023</p>
+                <p>&copy;Pauline Oraro 2024</p>
                 <p>Hebrews 11:1</p>
 
                 <div className="footerSocials">
