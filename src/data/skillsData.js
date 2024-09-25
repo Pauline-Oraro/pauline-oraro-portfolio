@@ -7,5 +7,6 @@ export const skillData = [
     "TAILWIND",
     "REACT",
     "NEXTJS",
-    "GIT"
+    "GIT",
+    "ILLUSTRATOR"
 ];

@@ -20,7 +20,14 @@ const Header = () =>{
                 <ul className="menu">
                     <li> <Link to="/">HOME</Link> </li>
                     <li> <Link to="/about">ABOUT</Link> </li>
-                    <li> <Link to="/blogs">BLOGS</Link> </li>
+                        <div class="dropdown">
+                            <li class="dropbtn"> SERVICES </li>
+                                <div class="dropdown-content">
+                                    <li> <Link to="/blogs">WEB CONTENT WRITING</Link></li>
+                                    <li> <Link to="/graphics">GRAPHIC DESIGN</Link></li>
+                                    
+                                </div>
+                        </div>
                     <li> <Link to="/projects">PROJECTS</Link> </li>
                     <li> <Link to="/contact">CONTACT</Link> </li>
                 </ul>

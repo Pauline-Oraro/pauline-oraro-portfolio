@@ -8,6 +8,7 @@ const Text = () =>{
         strings: [
             "Frontend Web Developer",
             "Frontend Consultant",
+            "Graphic Designer",
             "S.E.O Specialist",
             "Web Content Writer"
         ],
