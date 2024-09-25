@@ -22,9 +22,7 @@ const HomePage = () => {
                 <button onClick={() => {window.open("https://github.com/Pauline-Oraro")}}className='socailmediabtn'>
                 <AiFillGithub className='icon' />
             </button>
-            <button onClick={() => {window.open("https://www.instagram.com/pauline_in_tech/")}}className='socailmediabtn'>
-                <AiFillInstagram className='icon' />
-            </button>
+            
             <button onClick={() => {window.open("https://www.linkedin.com/in/pauline-oraro-0a2381274/")}}className='socailmediabtn'>
                 <FaLinkedinIn className='icon' />
             </button>
