@@ -6,6 +6,9 @@ import About from './pages/about';
 import Blogs from './pages/blogs'
 import Projects from './pages/projects';
 import Contact from './pages/contact';
+import Graphics from './pages/graphics';
+
+
 function App() {
   return(
     <div>
@@ -16,6 +19,7 @@ function App() {
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path= "/graphics" element={<Graphics/>} />
         </Routes>
       </Router>
 
