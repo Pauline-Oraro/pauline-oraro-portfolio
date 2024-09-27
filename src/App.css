@@ -453,6 +453,30 @@ input, textarea{
   margin-top: auto;
 }
 
+
+/*GRAPHICS PAGE*/
+.graphicsContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px auto;
+  gap: 50px;
+}
+
+.graphicsContainer img{
+  width: 500px;
+  border: 6px solid black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 600px){
+  .graphicsContainer img{
+    width: 300px;
+  }
+}
+
 /*PROJECTS PAGE*/
 .projectContainer{
   display: flex;

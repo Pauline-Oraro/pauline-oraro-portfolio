@@ -23,7 +23,7 @@ const Header = () =>{
                         
                             
                                 
-                                    <li> <Link to="/blogs">WEB CONTENT WRITING</Link></li>
+                                    <li> <Link to="/blogs">BLOGS</Link></li>
                                     <li> <Link to="/graphics">GRAPHIC DESIGN</Link></li>
                                     
                                 
