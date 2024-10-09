@@ -3,6 +3,7 @@ import movieNight from '../assets/images/Movie Night.jpg'
 import funday from '../assets/images/youth fun day.jpg'
 import service from '../assets/images/Youth Sunday Service.jpg'
 import mission from '../assets/images/mission outreach.jpg'
+import utamaduni from '../assets/images/Utamaduni day.jpg'
 
 
 const GraphicsPage = () => {
@@ -15,6 +16,7 @@ const GraphicsPage = () => {
                 <img src={funday} alt='funday poster' />
                 <img src={service} alt='church service poster' />
                 <img src={mission} alt='mission poster' />
+                <img src={utamaduni} alt='utamaduni day poster' />
             </div>
         </div>
         
