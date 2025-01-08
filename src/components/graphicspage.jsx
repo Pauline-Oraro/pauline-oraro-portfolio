@@ -4,7 +4,9 @@ import funday from '../assets/images/youth fun day.jpg'
 import service from '../assets/images/Youth Sunday Service.jpg'
 import mission from '../assets/images/mission outreach.jpg'
 import utamaduni from '../assets/images/Utamaduni day.jpg'
-
+import dinner from '../assets/images/dinner party.jpg'
+import picnic from '../assets/images/picnic and prayer breakfast.jpg'
+import model from '../assets/images/model casting call.jpg'
 
 const GraphicsPage = () => {
     return (
@@ -17,6 +19,9 @@ const GraphicsPage = () => {
                 <img src={service} alt='church service poster' />
                 <img src={mission} alt='mission poster' />
                 <img src={utamaduni} alt='utamaduni day poster' />
+                <img src={dinner} alt='dinner party'/>
+                <img src={picnic} alt="prayer breakfast and picnic"/>
+                <img src={model} alt="model casting call"/>
             </div>
         </div>
         
