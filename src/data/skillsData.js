@@ -8,5 +8,5 @@ export const skillData = [
     "REACT",
     "NEXTJS",
     "GIT",
-    "ILLUSTRATOR"
+    "MONGODB"
 ];

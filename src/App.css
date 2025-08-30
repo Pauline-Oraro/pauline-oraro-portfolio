@@ -30,15 +30,17 @@ h3{
 /*HOMEPAGE*/
 .homepage{
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-bottom: 20px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 250px;
 }
 .homepageText{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 50px;
   text-align: center;
+  margin-top: 50px;
 }
 .profileImage{
   max-width: 550px;
@@ -59,7 +61,7 @@ h3{
   display: flex;
   flex-direction: row;
   margin: 10px auto;
-  gap: 20px;
+  gap: 50px;
 }
 .homepageButton{
   filter: drop-shadow(7px 7px 0px #0A0A0A);
@@ -90,7 +92,7 @@ h3{
 }
 .Typewriter__cursor {
   font-size: 1.55em !important;
-  color: rgb(116, 5, 116);
+  color: #d60b5c;
 }
 
 /*socials*/
@@ -256,7 +258,7 @@ button{
 
 /*ABOUT*/
 .skillsContainer{
-  margin-top: 50px;
+  margin: 100px 0;
 }
 .skill-box{
   margin-left: 25px;
@@ -274,30 +276,33 @@ button{
 }
 .serviceContainer{
   width: 100%;
-  margin: 20px auto;
+  margin: 50px auto;
   display: flex;
-  gap: 20px;
+  gap: 40px;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 10px auto;
 }
 .serviceCard{
   padding: 10px;
+  text-align: center;
   background-color: #21201E;
   box-shadow: 6px 6px 0px #0A0A0A;
   border: 4px solid black;
-  width: 80%;
+  width: 50%;
   height: auto;
 }
-.serviceCard p{
-  padding: 10px;
-  text-align: center;
+
+.serviceCard h4{
   font-size: 24px;
 }
-.serviceCard h4{
-  font-size: 28px;
-}
+
+@media only screen and (max-width: 600px) {
+  .serviceCard{
+    width: 80%;
+  }
+  }
+
 
 /*CONTACT*/
 .contactContainer{
@@ -347,7 +352,7 @@ input, textarea{
 .submit{
   margin: 20px auto;
   filter: drop-shadow(7px 7px 0px #0A0A0A);
-  border: 2px solid #052240;
+  border: 2px solid #d60b5c;
 }
 .contactQuestions{
   display: flex;
@@ -394,7 +399,7 @@ input, textarea{
 .questionTab input:checked ~ .answerTab{
   display: block;
 }
-@media (max-width: 550px) {
+@media (max-width: 800px) {
   .contactContainer{
     display: flex;
     flex-direction: column;
@@ -411,71 +416,8 @@ input, textarea{
   }
 }
 
-/*BLOG*/
-.card{
-  width: 80%;
-  padding-left: 10px;
-  display: flex;
-  flex-direction: column;
-  background-color: #21201E;
-  box-shadow: 7px 7px 0px #0A0A0A;
-  border: 4px solid black;
-  margin: 10px auto;
-}
-.card-body{
-  padding: 1rem;
-  font-size: 24px;
-  display: flex;
-  flex-direction: column;
-  gap: .5rem;
-}
-.tag{
-  align-self: flex-start;
-  padding: .25em .75em;
-  border-radius: 1em;
-  font-size: .75em;
-}
-.tag + .tag{
-  margin-left: .5em;
-}
-.tag-pink{
-  background-image: linear-gradient(to bottom, #d60b5c, #b915cc);
-  box-shadow: 7px 7px 0px #0A0A0A;
-}
-.card-body h4{
-  font-size: 1.5rem;
-  text-transform: capitalize;
-  text-decoration: underline;
-}
-.card-footer{
-  display: flex;
-  padding: 1rem;
-  margin-top: auto;
-}
 
 
-/*GRAPHICS PAGE*/
-.graphicsContainer{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 20px auto;
-  gap: 50px;
-}
-
-.graphicsContainer img{
-  width: 500px;
-  border: 6px solid black;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-@media only screen and (max-width: 600px){
-  .graphicsContainer img{
-    width: 300px;
-  }
-}
 
 /*PROJECTS PAGE*/
 .projectContainer{
@@ -494,6 +436,7 @@ input, textarea{
 }
 .projectHeader img{
   width: 100%;
+  height: 100%;
 }
 .projectBody h3{
   font-size: 20px;

@@ -1,16 +1,15 @@
 
-import {Link } from "react-router-dom";
 
 const Header = () =>{
     return (
         <div className="header">
             <span>
-                <Link to="/">
+                <a href="/">
                     <img 
                     src="/Logo.png"
                     className="imgHeader"
                     />
-                </Link>
+                </a>
             </span>
             <input className="side-menu" type="checkbox" id="side-menu" name="menu"/>
             <label htmlFor="side-menu" className="hamb">
@@ -18,18 +17,10 @@ const Header = () =>{
             </label>
             <nav className="nav">
                 <ul className="menu">
-                    <li> <Link to="/">HOME</Link> </li>
-                    <li> <Link to="/about">ABOUT</Link> </li>
-                        
-                            
-                                
-                                    <li> <Link to="/blogs">BLOGS</Link></li>
-                                    <li> <Link to="/graphics">GRAPHIC DESIGN</Link></li>
-                                    
-                                
-                        
-                    <li> <Link to="/projects">PROJECTS</Link> </li>
-                    <li> <Link to="/contact">CONTACT</Link> </li>
+                    <li> <a href="#home">HOME</a> </li>
+                    <li> <a href="#about">ABOUT</a> </li>
+                    <li> <a href="#projects">PROJECTS</a> </li>
+                    <li> <a href="#contact">CONTACT</a> </li>
                 </ul>
             </nav>
         </div>

@@ -4,7 +4,7 @@ import {BsFillEnvelopeAtFill} from "react-icons/bs";
 
 const ContactPage = () =>{
     return (
-        <div className="mx-auto my-44">
+        <div className="mx-auto my-44" id="contact">
             <div className="contactContainer">
             <div className="contactDetails">
             <h3 className="text-center"><span style={{"backgroundColor":"#d60b5c", "boxShadow": "5px 5px 0px black"}}>CONTACT</span> ME</h3>
@@ -47,12 +47,12 @@ const ContactPage = () =>{
                 required>
                 </textarea>
 
-                <button className="submit" type="submit" style={{"backgroundColor":"#052240"}}>SUBMIT</button>
+                <button className="submit" type="submit" style={{"backgroundColor":"#d60b5c"}}>SUBMIT</button>
             </form>
             </div>
             </div>
             <div className="mt-12">
-                <h3 className="text-center mb-12"><span style={{"backgroundColor":"#b915cc", "boxShadow": "5px 5px 0px black"}}>FREQUENTLY</span> ASKED QUESTIONS.</h3>
+                <h3 className="text-center mb-12"><span style={{"backgroundColor":"#d60b5c", "boxShadow": "5px 5px 0px black"}}>FREQUENTLY</span> ASKED QUESTIONS.</h3>
                 <div className="contactQuestions">
                     <div className="questionTab">
                         <input 

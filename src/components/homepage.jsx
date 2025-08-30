@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 import Text from "./text";
 import {
     AiFillGithub,
@@ -7,14 +7,14 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 const HomePage = () => {
     return(
-        <div className="homepage container mx-auto mt-44">
+        <div className="homepage container mx-auto mt-44" id="home">
             <div className="homepageText">
-                <h2 className="text-4xl mb-0 text-center">HI.I AM <span style={{"backgroundColor":"#052240","boxShadow":"6px 6px black"}}>PAULINE</span> ORARO</h2>
+                <h2 className="text-4xl mb-0 text-center">HI.I AM <span style={{"backgroundColor":"#d60b5c","boxShadow":"6px 6px black"}}>PAULINE</span> ORARO</h2>
                 <Text />
                 <div className="homeButtons">
                     <button className="homepageButton" onClick={() =>{window.open("https://drive.google.com/file/d/1P4co11Uen0g2YAPO1mTrReIShiT-jYoZ/view?usp=drive_link")}}>RESUME</button>
                     <button className="homepageButton"> 
-                        <Link to="/contact">CONTACT ME</Link>
+                        <a href="#contact">CONTACT ME</a>
                     </button>
                 </div>
                 <div className="homepageSocials">
@@ -26,9 +26,6 @@ const HomePage = () => {
                 <FaLinkedinIn className='icon' />
             </button>
             </div>
-            </div>
-            <div className="homepageImage">
-                <img src="/pauline.jpg" className="profileImage" alt="pauline oraro" />
             </div>
         </div>
     )

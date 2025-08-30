@@ -7,7 +7,7 @@ import tailwind from '../assets/svg/tailwind.svg'
 import react from '../assets/svg/react.svg'
 import nextjs from '../assets/svg/nextJS.svg'
 import git from '../assets/svg/git.svg'
-import illustrator from '../assets/svg/adobe-illustrator.svg'
+import mongodb from '../assets/svg/MongoDB.svg'
 
 
 export const skillImage = (skill) => {
@@ -31,8 +31,8 @@ export const skillImage = (skill) => {
             return nextjs;
         case 'git':
             return git;
-        case 'illustrator':
-            return illustrator;
+        case 'mongodb':
+            return mongodb;
         default:
             break;
 }

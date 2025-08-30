@@ -1,16 +1,60 @@
 import noteTaking from '/src/assets/images/note taking.png'
-import todolist from '/src/assets/images/todo-list.png'
-import quiz from '/src/assets/images/quiz app.png'
-import price from '/src/assets/images/price tag.png'
-import form from '/src/assets/images/form.jpg'
-import tictac from '/src/assets/images/tictac.png'
+import connectify from '../assets/images/connectify.png'
+import resume from '../assets/images/resume.png'
+import movies from '../assets/images/movies.png'
+
 
 
 const ProjectsPage = () => {
     return (
-        <div className="w-full my-32 mx-auto flex flex-wrap justify-center">
+        <div className="w-full my-48 mx-auto flex flex-col items-center justify-center" id='projects'>
             <h1 className="text-center">PROJECTS<span className="text-5xl" style={{"color":"#d60b5c"}}>.</span></h1>
             <div className="projectContainer">
+                <div className="projectCard">
+                    <div className="projectHeader">
+                        <img src={connectify} alt="connectify app "/>
+                    </div>
+                    <div className="projectBody">
+                    <h3>Connectify ~ Social Media Web App</h3>
+                    <hr></hr>
+                        <p>Connectify is a dynamic social media web application built with React, Vite, Supabase, TailwindCSS, and TypeScript, designed to deliver smooth performance, real-time interaction, and a sleek user experience.</p>
+                    </div>
+                    <div className="projectFooter">
+                        <button onClick={() => {window.open("https://connectify-teal.vercel.app/")}}>DEMO</button>
+                        <button onClick={() => {window.open("https://github.com/Pauline-Oraro/connectify")}}>CODE</button>
+                    </div>
+                </div>
+
+                <div className="projectCard">
+                    <div className="projectHeader">
+                        <img src={resume} alt="AI-powered Resume Analyzer example"/>
+                    </div>
+                    <div className="projectBody">
+                    <h3>AI-powered Resume Analyzer built with React & Puter.js.</h3>
+                    <hr></hr>
+                        <p>The AI-Powered Resume Analyzer is a web application designed to evaluate resumes using artificial intelligence. Built with React for a fast, dynamic user interface and Puter.js for AI processing.</p>
+                    </div>
+                    <div className="projectFooter">
+                        <button onClick={() => {window.open("https://ai-resume-analyzer-six-pi.vercel.app/")}}>DEMO</button>
+                        <button onClick={() => {window.open("https://github.com/Pauline-Oraro/AI-Resume-Analyzer")}}>CODE</button>
+                    </div>
+                </div>
+
+                <div className="projectCard">
+                    <div className="projectHeader">
+                        <img src={movies} alt="movie app example"/>
+                    </div>
+                    <div className="projectBody">
+                    <h3>Movieverse ~ A Modern React Movie App</h3>
+                    <hr></hr>
+                        <p>Movieverse is a sleek and interactive web application built with React, designed for movie lovers to explore films effortlessly. It provides a modern browsing experience with smooth navigation, dynamic content, and real-time updates.</p>
+                    </div>
+                    <div className="projectFooter">
+                        <button onClick={() => {window.open("https://movieverse-react-delta.vercel.app/")}}>DEMO</button>
+                        <button onClick={() => {window.open("https://github.com/Pauline-Oraro/movieverse-react")}}>CODE</button>
+                    </div>
+                </div>
+
                 <div className="projectCard">
                     <div className="projectHeader">
                         <img src={noteTaking} alt="note taking app example"/>
@@ -26,83 +70,11 @@ const ProjectsPage = () => {
                     </div>
                 </div>
 
-                <div className="projectCard">
-                    <div className="projectHeader">
-                        <img src={todolist} alt="todo list app example"/>
-                    </div>
-                    <div className="projectBody">
-                    <h3>Todo List App</h3>
-                    <hr></hr>
-                        <p>This project is a Todo list app created using react. It allows users to create, edit, update and delete todo lists.</p>
-                    </div>
-                    <div className="projectFooter">
-                        <button onClick={() => {window.open("https://todo-list-paulineoraro.netlify.app/")}}>DEMO</button>
-                        <button onClick={() => {window.open("https://github.com/Pauline-Oraro/react-todo-list")}}>CODE</button>
-                    </div>
-                </div>
-
-                <div className="projectCard">
-                    <div className="projectHeader">
-                        <img src={form} alt="login form example"/>
-                    </div>
-                    <div className="projectBody">
-                    <h3>React Login Form </h3>
-                    <hr></hr>
-                        <p>Performs basic validation on the form fields and displays error messages when the user enters invalid data.</p>
-                    </div>
-                    <div className="projectFooter">
-                        <button onClick={() => {window.open("https://react-login-form-one.vercel.app/")}}>DEMO</button>
-                        <button onClick={() => {window.open("https://github.com/Pauline-Oraro/react-login-form")}}>CODE</button>
-                    </div>
-                </div>
-
-                <div className="projectCard">
-                    <div className="projectHeader">
-                        <img src={quiz} alt="javascript quiz app example"/>
-                    </div>
-                    <div className="projectBody">
-                    <h3>Javascript Quiz App</h3>
-                    <hr></hr>
-                        <p>A user can select an option for each question and submit the quiz to see their score and review incorrect answers.</p>
-                    </div>
-                    <div className="projectFooter">
-                        <button onClick={() => {window.open("https://pauline-oraro.github.io/javascript-quiz-app.github.io/")}}>DEMO</button>
-                        <button onClick={() => {window.open("https://github.com/Pauline-Oraro/javascript-quiz-app.github.io")}}>CODE</button>
-                    </div>
-                </div>
-
-                <div className="projectCard">
-                    <div className="projectHeader">
-                        <img src={price} alt="bootstrap tables example"/>
-                    </div>
-                    <div className="projectBody">
-                    <h3>Pricing Table App</h3>
-                    <hr></hr>
-                        <p>This project is a responsive bootstrap pricing table example created using the container layout of bootstrap.</p>
-                    </div>
-                    <div className="projectFooter">
-                        <button onClick={() => {window.open("https://pauline-oraro.github.io/bootstrap-pricing-table.github.io/")}}>DEMO</button>
-                        <button onClick={() => {window.open("https://github.com/Pauline-Oraro/bootstrap-pricing-table.github.io")}}>CODE</button>
-                    </div>
-                </div>
-
-                <div className="projectCard">
-                    <div className="projectHeader">
-                        <img src={tictac} alt="tictactoe example"/>
-                    </div>
-                    <div className="projectBody">
-                    <h3>Tictactoe Game App</h3>
-                    <hr></hr>
-                        <p>This is a Tictactoe game created using react. The user plays the game until the winner can either be X or O.</p>
-                    </div>
-                    <div className="projectFooter">
-                        <button onClick={() => {window.open("https://tic-tac-toe-game-pauline-oraro.netlify.app/")}}>DEMO</button>
-                        <button onClick={() => {window.open("https://github.com/Pauline-Oraro/tic-tac-toe-game")}}>CODE</button>
-                    </div>
-                </div>
+                
+                
             </div>
             <div>
-                <p className="text-center">More projects on my <button style={{"backgroundColor":"#b915cc", "boxShadow": "6px 6px 0px black"}} onClick={() => {window.open("https://github.com/Pauline-Oraro")}}>GITHUB</button></p>
+                <p className="text-center">More projects on my <button style={{"backgroundColor":"#d60b5c", "boxShadow": "6px 6px 0px black"}} onClick={() => {window.open("https://github.com/Pauline-Oraro")}}>GITHUB</button></p>
             </div>
         </div>
     )
