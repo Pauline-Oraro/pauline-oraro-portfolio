@@ -12,7 +12,7 @@ const HomePage = () => {
                 <h2 className="text-4xl mb-0 text-center">HI.I AM <span style={{"backgroundColor":"#d60b5c","boxShadow":"6px 6px black"}}>PAULINE</span> ORARO</h2>
                 <Text />
                 <div className="homeButtons">
-                    <button className="homepageButton" onClick={() =>{window.open("https://drive.google.com/file/d/1P4co11Uen0g2YAPO1mTrReIShiT-jYoZ/view?usp=drive_link")}}>RESUME</button>
+                    <button className="homepageButton" onClick={() =>{window.open("https://drive.google.com/file/d/10Rb7j1t0R4n_ToLEbfs2pjfqYjvsps6N/view?usp=sharing")}}>RESUME</button>
                     <button className="homepageButton"> 
                         <a href="#contact">CONTACT ME</a>
                     </button>
